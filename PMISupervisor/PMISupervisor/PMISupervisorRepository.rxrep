@@ -1,0 +1,719 @@
+﻿<repository
+id="02b15840-77da-419d-b28a-07db2731a477"
+name="PMISupervisorRepository"
+rxversion="8.0">
+	<codegen
+	classname="PMISupervisorRepository"
+	namespace="PMISupervisor">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="dcd8a16c-6d73-4d59-943e-71a35b7b3ac8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="unknown,mobileapp,androidapp"
+		capname="mobileapp"
+		id="fd56243c-ade9-476f-af68-74733305a57b"
+		isrooted="True"
+		name="PMI_Supervisor"
+		refpath="/mobileapp[@title='pk.com.tradetracker']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="1b5b46c7-8f11-4019-8775-5af1d7edccc3"
+			name="Validate_AppStartingScreen"
+			refimgid="a8684e1e-80e8-49e6-9919-5b395f115a13"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/text[@caption='WELCOME']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//text[@caption='WELCOME']
+			</item>
+			<item
+			addcaps="radiobutton,androidelement,mobileuielement"
+			capname="radiobutton"
+			id="f037047c-61c7-453a-8895-4d75fa58264c"
+			name="WorkReview_RadioButton"
+			refimgid="68324b28-515e-4fb1-8b45-10f651f3a01d"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/container[2]/radiobutton[@text='WR']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//radiobutton[@text='WR']
+			</item>
+			<item
+			addcaps="radiobutton,androidelement,mobileuielement"
+			capname="radiobutton"
+			id="9ac999d9-0218-4399-85e4-83e02376c6d3"
+			name="WorkWith_RadioButton"
+			refimgid="4560fe3a-f10b-4693-b4bc-ade00c3f7b3d"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/container[2]/radiobutton[@text='WW']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//radiobutton[@text='WW']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="bf59d7fd-a555-4c9a-8b41-04372acbefd2"
+			name="ButtonSubmit"
+			refimgid="014aace8-96bd-4c67-87ea-934435540782"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/button[@text=' Submit ']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//button[@text=' Submit ']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="a74c639d-e7c9-4ac7-adb9-0ba809a2500d"
+			name="Validation_OKButton"
+			refimgid="93a810ea-0798-4061-9c65-237795260fe0"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']/container[@containertype='Linear']/container[4]/container[@containertype='Linear']/button[@resourceid='R.string.yes']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="06ef7c04-173f-4f0e-93c5-7087f3dea2d8"
+			name="Attendance_Button"
+			refimgid="6ac0de28-08b9-41c9-bd26-3a4f8cf2309c"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/container[2]/container[@containertype='Relative']/button[@text=' Attendance ']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']/?/?/container[@containertype='Linear']/container[2]/container[@containertype='Relative']/button[@text=' Attendance ']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="ab555116-9ae6-47b2-99b1-d5ad884eee88"
+			name="Validate_AttendanceScreen"
+			refimgid="98b336ad-ff63-4084-ab79-e5c906cc344e"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/container[@containertype='Relative']/text[@caption='Attendance']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']//text[@caption='Attendance']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="2b31c732-0589-4f8b-8d2a-8d1106b76b2f"
+			name="Merchandisers_AttendanceList"
+			refimgid="6e55acb6-8d8d-45c0-b8ab-0a4fa90266af"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']
+			</item>
+			<folder
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="6bab41d4-35f8-4a0c-90d5-eeaec9133a83"
+			isrooted="True"
+			name="List"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="a77f1d1f-3644-48e0-97c7-689d604229c0"
+				name="MerchandiserOnRoute_RadioButton"
+				refimgid="95977653-e96f-474d-a112-7ed589a81029"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[2]/radiobutton[@text='']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']/?/?/radiobutton[@text='']
+				</item>
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="03692d8c-113e-43e0-853d-413292220071"
+				name="MerchandiserAMAssignment_RadioButton"
+				refimgid="3c040d19-6a76-40e4-98bd-725b3763fe61"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[3]/radiobutton[@text='']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']/container[3]/radiobutton[@text='']
+				</item>
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="2a260a3b-1c77-4506-8f5c-9053e56637d4"
+				name="MerchandiserTraining_RadioButton"
+				refimgid="11a07a9b-e888-412f-94c1-f729cb00ab3e"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[4]/radiobutton[@text='']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']/container[4]/radiobutton[@text='']
+				</item>
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="b0cc18f0-c801-4bf9-adee-a9d000f0e657"
+				name="MerchandiserOnLeave_RadioButton"
+				refimgid="7b3f10de-8065-4530-b5bf-b3a8e85010e4"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[5]/radiobutton[@text='']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']/container[5]/radiobutton[@text='']
+				</item>
+				<item
+				addcaps="radiobutton,androidelement,mobileuielement"
+				capname="radiobutton"
+				id="9ce632ab-ed77-4aa4-a8cf-306bad058959"
+				name="MerchandiserOOR_RadioButton"
+				refimgid="e4ac0227-7891-4dc1-b33c-6bd0dfb48ead"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[6]/radiobutton[@text='']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']/container[6]/radiobutton[@text='']
+				</item>
+				<basepath>
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='AttendenceListScreen']//list[@rid='list']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="1893e536-db46-4407-a746-1de9f3b600cf"
+			name="Validate_MERCHANDISERSLISTScreen"
+			refimgid="1272d93d-56fc-4baf-8ad7-75be499f4c49"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']/container[@rid='content']/container[@containertype='Relative']/container[@containertype='Relative']/text[@caption='MERCHANDISERS LIST']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']/container[@rid='content']//text[@caption='MERCHANDISERS LIST']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="477a4856-c562-48ac-a1f3-2499b07328e0"
+			name="Merchandisers_List"
+			refimgid="72613b66-6388-408b-be92-6011ed5234b0"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']//list[@rid='list']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="5f7cae13-3b91-468d-a8f0-d9ead14c7d89"
+			name="Validate_ROUTELISTScreen"
+			refimgid="f8a0da7b-cd72-4cfd-a7ee-2e2db2fcf93f"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/container[@containertype='Relative']/text[@caption='ROUTE LIST']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="724f5af0-998c-47d3-a7f5-c2570195f316"
+			name="Route_List"
+			refimgid="227e1626-85bc-4103-808b-f4c5582d82be"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="5b5e20e1-b1cb-410b-9729-e04314ea2e1e"
+			name="ShopsList_validation"
+			refimgid="d9b721eb-ca32-424f-8b71-e8b005e591ec"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']/container[@containertype='Linear']/container[1]"
+			searchtimeout="30000ms">
+				<image
+				guid="873277d8-7b7d-4d19-932f-2b4f07557dfa"
+				name="Screenshot1">
+					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
+				</image>
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]
+			</item>
+			<folder
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="29906d1f-ca78-45b5-a2c8-07b1367b1693"
+			isrooted="True"
+			name="List1"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="2e9836e4-c080-43f7-a10b-2a3eb3993c46"
+				name="Monday"
+				refimgid="ca37ab06-be1d-4428-98d3-89357774e31a"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[1]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[1]
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="e47cea3d-afa5-497f-9810-c1411ea2633b"
+				name="Tuesday"
+				refimgid="aed626a8-8a9b-426a-86bb-164ab0eaeb47"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[2]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[2]
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="bc506f73-2bf3-4fcf-9f0a-e335794b0db4"
+				name="Wednesday"
+				refimgid="4b466488-7c97-4542-bb3c-da3a953b79d2"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[3]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[3]
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="3d58c29b-8946-4603-8a27-af462f71b341"
+				name="Thursday"
+				refimgid="787de818-8ed4-4b5a-9fd4-3ec9d79f83bb"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[4]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[4]
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="e4ec867b-8e0d-4880-b8bb-cf71aaebae11"
+				name="Friday"
+				refimgid="e9a21b37-16c0-4207-a2c9-e2957ee4babc"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[5]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[5]
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="54e80a48-6c3d-4bdf-be67-7504ac3fcfe8"
+				name="Saturday"
+				refimgid="39e6072c-6199-4b0b-892c-bd81659ae35e"
+				refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[6]"
+				searchtimeout="30000ms">
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[6]
+				</item>
+				<basepath>
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="cafb2cca-c77c-4344-8920-4f3c0441aae4"
+			name="Validate_ShopsListScreen"
+			refimgid="2a2d0d07-87f8-4111-b085-70c210e3fd05"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']/container[@containertype='Linear']/container[1]/text[@caption='Shops List']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']//text[@caption='Shops List']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="92bd42e9-c9ae-496e-af21-863b3e46c5c1"
+			name="Shops_List"
+			refimgid="6c93fb0e-9b2c-4e41-b8b8-10b2edff13ac"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']//list[@rid='list']
+			</item>
+			<item
+			addcaps="form,mobileform,mobileuielement"
+			capname="form"
+			id="221c7aa4-f23b-4874-97a2-bf3cb6eb57e8"
+			name="Validate_InfoPopUp"
+			refimgid="0c040e56-e4bf-4cbe-a78d-e8c39acb7e0f"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']
+			</item>
+			<item
+			addcaps="form,mobileform,mobileuielement"
+			capname="form"
+			id="41819b1d-1c9d-49bc-9e63-4e9afaf9233e"
+			name="Validate_ShopDetailsForm"
+			refimgid="85c8c4dd-2820-4d96-9c1f-54f546821c9d"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="4a94db0b-632d-4aa3-bd1f-69b34b3ed721"
+			name="ShopDetails"
+			refimgid="2f5111c7-4196-43d0-aae0-579acbdf6219"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']/container[@containertype='Linear']/container[2]/list/container[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']//list/container[1]
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="09a24892-db3e-4c14-9bab-6df61155e45d"
+			name="Validate_ProceedShopForm"
+			refimgid="4e19ad42-802d-4c99-8928-6e527075a631"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="3ebcdd59-96a7-4eb8-9223-64a663ca16f3"
+			name="ProceedButton"
+			refimgid="21e2e95a-0b7d-4b59-8ebf-1a3adc574025"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']/container[@containertype='Linear']/container[2]/button[@text='Proceed']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']//button[@text='Proceed']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="c56619be-0444-4a54-b953-715e5637b824"
+			name="Validate_TradeTrackerScreen"
+			refimgid="fb931e34-d4b6-4816-8a38-ca7a9f974555"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='GpsCoordinates']/toolbar/androidelement[1]/text[@caption='Trade Tracker']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']
+			</item>
+			<item
+			addcaps="picture,androidelement,mobileuielement"
+			capname="picture"
+			id="292dfa67-1a13-45ca-995e-f037a8f87b3b"
+			name="CheckInButton"
+			refimgid="76bf2296-bed8-4f2e-95d2-8e32d2337d86"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='GpsCoordinates']/container[@rid='content']/container[@containertype='Relative']/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='GpsCoordinates']/container[@rid='content']//picture
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="0c30c2f8-6171-41fc-be43-ed30d7dd3932"
+			name="ShopRemarks_List"
+			refimgid="ae710762-9092-460c-8ed5-2c11a9975bc5"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']/container[@containertype='Linear']/container[3]/container[@rid='custom']/container[@containertype='Linear']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//container[@rid='custom']/?/?/list[@rid='list']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="1b417958-96e6-4646-abc3-33a56593fe34"
+			name="UserLocationIsIncorrect"
+			refimgid="4d622eb9-ef3f-464c-af29-2fcb8d394f38"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container/container/container/container/container/list/container"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container//list/container
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="ec56b018-a7fa-4dbe-b0f0-d87890865b28"
+			name="ShopOpen"
+			refimgid="b4cb2621-251a-4e4c-8ed4-862df9b42be0"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']/container[@containertype='Linear']/container[3]/container[@rid='custom']/container[@containertype='Linear']/list[@rid='list']/container[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//list[@rid='list']/container[1]
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="a08fc434-f3a1-40c6-bf13-9bcdf92118e2"
+			name="Validate_CameraScreen"
+			refimgid="845015bf-a0e0-4d39-8918-0e5645583f9a"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']/container[@containertype='Relative']/container[2]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/?/?/container[@containertype='Relative']/container[2]
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="53010911-f0b0-452e-8668-d775f16e4408"
+			name="TakePhoto"
+			refimgid="9d967f43-d456-4a95-b5d0-26f47215975c"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']/container[@containertype='Relative']/container[2]/button[@text='Take Photo']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='Take Photo']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="451911a3-f2fe-45c6-bffc-2637a8d27171"
+			name="ButtonDone"
+			refimgid="0bb80abe-5854-4822-b84c-c7813603becf"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']/container[@containertype='Relative']/container[3]/button[@text='  Done  ']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="8ca87ed1-3bb6-43ca-8433-b50ef9929721"
+			name="YesButton"
+			refimgid="8fba9e3d-a49d-4ed6-93aa-ce8fc6b582f9"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']/container[@containertype='Linear']/container[4]/container[@containertype='Linear']/button[@rid='button1']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button1']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="30e3c6cd-77d4-469a-b635-d651fa3d5b42"
+			name="NoButton"
+			refimgid="b795649a-be70-4ec5-b8fc-999339a92eb7"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']/container[@containertype='Linear']/container[4]/container[@containertype='Linear']/button[@rid='button2']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button2']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="a98c99e0-5c99-482c-ae56-33fe0fc4e812"
+			name="Validate_NonTKShopScreen"
+			refimgid="2b5a2716-de39-45ef-b4e3-7ead28e85011"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']/container[@containertype='Relative']/container[3]/text[@caption='Non-TK']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="2da17f51-208c-4269-a5b1-3f59ac5e2159"
+			name="TPOSMApplication"
+			refimgid="5f192f16-7db2-4c96-b826-cfa10e076889"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[1]
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="9efa5915-3cae-47c4-a64a-b4ab10364afc"
+			name="Validate_TPOSMApplicationScreen"
+			refimgid="5f1ffe99-c594-4dad-bdd4-bcaaaa910274"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container[@containertype='Linear']/container[@containertype='Relative']/text[@caption='TPOSM Application']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM Application']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="4b2b9bed-227f-42d4-ac4e-955fdecca5e9"
+			name="TPOSMDeployment"
+			refimgid="6c058466-7a12-40e1-8020-c2c73c90d359"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container[@containertype='Linear']/list[@rid='list']/container[@containertype='Relative']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']//list[@rid='list']/container[@containertype='Relative']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="2f46a54e-e816-45d9-817d-d081589aa36e"
+			name="Validate_TPOSMDeploymentScreen"
+			refimgid="efaec652-0d10-4ce7-84b6-d1341578e3f4"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container[@rid='content']/container[@containertype='Relative']/container[@containertype='Relative']/text[@caption='TPOSM']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="e7e5575b-3717-4bc8-8ff9-b2e444a99b3f"
+			name="TPOSM_List"
+			refimgid="85d75e7b-53a0-41d1-b80f-0587e55126c9"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']"
+			searchtimeout="100ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']//list[@rid='list']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="3a494590-5a6a-4d22-8bdf-671643985d87"
+			name="Validate_TPOSMScreen"
+			refimgid="090c7943-611a-412f-8631-4de957f24bda"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointRemarksListScreen']/container[@rid='content']/container[@containertype='Relative']/container[@containertype='Relative']/text[@caption='TPOSM']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']/container[@rid='content']//text[@caption='TPOSM']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="6ad974b2-2658-4872-9ce2-f3ae9da8f429"
+			name="TPOSM1_Yes"
+			refimgid="1507eef8-e684-4308-befd-988970491ea4"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/?/?/container/?/?/list[@rid='list']/container[1]
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="b18d9122-c4f9-484a-a731-c1cec2cc664f"
+			name="TPOSM_No"
+			refimgid="bf19ac84-3758-44c5-bfe6-8809f863cd64"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointRemarksListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[2]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//list[@rid='list']/container[2]
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="c313c467-2820-4c52-b4ee-d3db22110ac7"
+			name="TPOSM2_Yes"
+			refimgid="c41a6e5d-8939-4e76-9880-8cec3d3c4eed"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointRemarksListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//list[@rid='list']/container[1]
+			</item>
+			<item
+			addcaps="form,mobileform,mobileuielement"
+			capname="form"
+			id="0a8f6309-c3d5-4eeb-9b2c-97ac8f5c3742"
+			name="Validate_TPOSMQuantityPopUp"
+			refimgid="bda065f1-d7f0-449d-beac-ed8d7b5bd807"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="3feeeb25-8230-48e6-9576-d08322c1093a"
+			name="TPOSMQuantity_EditTextField"
+			refimgid="f5ddb861-0409-4cf7-b5a3-0bea00879852"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']/container[@containertype='Linear']/container[@containertype='Frame']/container[@rid='custom']/text"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//container[@rid='custom']/text
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="e27cc19d-20f1-48fb-8b91-50a247404ad8"
+			name="TPOSMQuantity_OKButton"
+			refimgid="bed37563-325b-437d-a22c-2a21112392eb"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']/container[@containertype='Linear']/container[4]/container[@containertype='Linear']/button[@rid='button1']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//button[@rid='button1']
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="50948618-4726-4d56-b33a-9764c50851f4"
+			name="TPOSM_TakePicture1"
+			refimgid="bce21e1a-0d09-4d57-bddb-713fc498765a"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container[@containertype='Linear']/container[2]/button[1]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[1]
+			</item>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="9d377727-e82b-4903-a911-7f6ff5e55171"
+			name="TPOSM_TakePicture2"
+			refimgid="d4471a23-051f-4a79-8f2f-1c11e15d2e31"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container[@containertype='Linear']/container[2]/button[2]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[2]
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="ae81bed6-f7dc-4004-9ccd-535a1280d341"
+			name="AvailabilityCheck"
+			refimgid="be392074-6699-4db3-a7c3-80b72d09af4f"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']/container[2]"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[2]
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="393237b7-ced8-4d87-8ebd-1210c7d416c1"
+			name="Validate_AVAILABILITYCHECKScreen"
+			refimgid="300e8da5-556d-4825-9cd4-077981e92efc"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='InformationCollectionScreen']/container[@rid='content']/container[@containertype='Linear']/container[1]/text[@caption='AVAILABILITY CHECK']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/container[@rid='content']//text[@caption='AVAILABILITY CHECK']
+			</item>
+			<item
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="f138f831-4b63-4831-9685-69a4e19b9778"
+			name="AvailabilityCheck_List"
+			refimgid="9d0a4f11-3a09-438d-8323-fc1f5008b375"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='InformationCollectionScreen']/container[@rid='content']/container[@containertype='Linear']/container[@containertype='ScrollView']/container[@containertype='Linear']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']
+			</item>
+			<item
+			addcaps="list,androidelement,mobileuielement"
+			capname="list"
+			id="bf4e6e3b-55f7-4e0b-a6db-e824a361af1f"
+			name="NonTKModules_List"
+			refimgid="01d2b0fb-e020-462e-8c95-d5a74820d70e"
+			refpath="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']/container[@containertype='Relative']/list[@rid='list']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']
+			</item>
+			<basepath>
+				/mobileapp[@title='pk.com.tradetracker']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

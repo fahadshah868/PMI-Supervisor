@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{A0E6180D-6321-4E7D-A5BC-E6E5BEEB4067}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PMISupervisor</RootNamespace>
+    <AssemblyName>PMISupervisor</AssemblyName>
+    <RanorexVersion>8.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>96936818-4316-4611-ada2-8b01950c5450</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>12a3c563-1982-4d61-9bed-07043e43c375</id>
+    </Compile>
+    <Compile Include="PMISupervisorRepository.cs">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <DependentUpon>PMISupervisorRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5c30ffed-ed85-4884-ba76-7186e308b12f</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>af6d9346-0a6a-4689-88a8-e4c8f9d246b4</id>
+    </Compile>
+    <Compile Include="TestCases\Launching App\LaunchingApp.cs">
+      <DependentUpon>LaunchingApp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29818568-f09b-4437-b668-4412caa96a2f</id>
+      <BoundTo>9b6b0be9-ec94-411d-acf6-679e29aadb5d</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\Launching App\LaunchingApp.UserCode.cs">
+      <DependentUpon>LaunchingApp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ac3b864-3f8b-4766-8c7d-659b9b8644a3</id>
+      <BoundTo>9b6b0be9-ec94-411d-acf6-679e29aadb5d</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\MarkAttendance\MarkAttendance.cs">
+      <DependentUpon>MarkAttendance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa2161f6-b139-48b1-bc53-0423bb002d26</id>
+      <BoundTo>cf85735b-5b62-417f-bca2-04fc765e9ab7</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\MarkAttendance\MarkAttendance.UserCode.cs">
+      <DependentUpon>MarkAttendance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>477dab00-548b-431e-bf2b-621a24b6e6c6</id>
+      <BoundTo>cf85735b-5b62-417f-bca2-04fc765e9ab7</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\AvailabilityCheck.cs">
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>88b55c13-81de-4fb0-bd31-31476dd00456</id>
+      <BoundTo>4a9c7d95-2ee2-44f8-9a8d-16cfa32ad805</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\AvailabilityCheck.UserCode.cs">
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7554a14b-7a33-4c1e-9aca-5558f32c7ec3</id>
+      <BoundTo>4a9c7d95-2ee2-44f8-9a8d-16cfa32ad805</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\BWUMaintenance.cs">
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>560f8730-b8f8-485e-8abc-076ac0465fa5</id>
+      <BoundTo>7686ec89-242e-428a-bf13-a181c0314345</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\BWUMaintenance.UserCode.cs">
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a769475b-849d-4eaa-8683-f6dce82e5ab6</id>
+      <BoundTo>7686ec89-242e-428a-bf13-a181c0314345</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\OverWriteNonTKShop.cs">
+      <DependentUpon>OverWriteNonTKShop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6592d3ed-b73c-4936-8586-e460c83f7301</id>
+      <BoundTo>3bcc4ff6-d180-4e4f-ae1a-8fbe5c9d5448</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\OverWriteNonTKShop.UserCode.cs">
+      <DependentUpon>OverWriteNonTKShop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0417921d-b8cd-43af-a4f5-fa3eaa264540</id>
+      <BoundTo>3bcc4ff6-d180-4e4f-ae1a-8fbe5c9d5448</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\ShopOpen.cs">
+      <DependentUpon>ShopOpen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>56c98373-99bd-45eb-b58e-6ce71497d446</id>
+      <BoundTo>e540184b-ff13-4ed4-b770-c37048e89266</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\ShopOpen.UserCode.cs">
+      <DependentUpon>ShopOpen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b46a582-de15-4418-8023-1b7e8874d291</id>
+      <BoundTo>e540184b-ff13-4ed4-b770-c37048e89266</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\TPOSM.cs">
+      <DependentUpon>TPOSM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>46d8f9d7-6e2f-4b71-8f33-0aaaeeb5fa4e</id>
+      <BoundTo>4c68a22f-38d4-4dce-8463-c54704fd1334</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\TPOSM.UserCode.cs">
+      <DependentUpon>TPOSM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54b63c41-fcb9-43e2-a697-078214f23d07</id>
+      <BoundTo>4c68a22f-38d4-4dce-8463-c54704fd1334</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\TPOSMApplication.cs">
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa43ba6a-793c-4df5-9d3e-7526f68c54b3</id>
+      <BoundTo>e009d609-2d86-41df-8030-dc4c2a44522b</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverWriteNonTKShop\TPOSMApplication.UserCode.cs">
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af434501-304c-4e5f-9aa9-885debf3c055</id>
+      <BoundTo>e009d609-2d86-41df-8030-dc4c2a44522b</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\testrecording.cs">
+      <BoundTo>09258550-1bd0-4154-9c2f-e0067909a028</BoundTo>
+      <DependentUpon>testrecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e6d8dd07-3f4c-4fe9-b4b8-7f556e6a40fd</id>
+    </Compile>
+    <Compile Include="TestCases\testrecording.UserCode.cs">
+      <BoundTo>09258550-1bd0-4154-9c2f-e0067909a028</BoundTo>
+      <DependentUpon>testrecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac6d9fae-0c3c-475a-9d92-9bef2125d6f9</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\AvailabilityCheck.cs">
+      <BoundTo>2da3d751-17a0-4e5b-ab4c-8558238bd094</BoundTo>
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29b97c23-663e-4d9e-b7e2-b7d33d130188</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\AvailabilityCheck.UserCode.cs">
+      <BoundTo>2da3d751-17a0-4e5b-ab4c-8558238bd094</BoundTo>
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e0a9b540-55d7-4990-954c-6fa1c76344d1</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\BWUMaintenance.cs">
+      <BoundTo>654d294f-6eb9-48d5-88ba-31dbe7c26ac4</BoundTo>
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0511f0d-e926-4393-b279-70f08726b31d</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\BWUMaintenance.UserCode.cs">
+      <BoundTo>654d294f-6eb9-48d5-88ba-31dbe7c26ac4</BoundTo>
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>913594a5-a4ba-4e21-b342-9449b0b781ef</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\ChooseNonTKShop.cs">
+      <BoundTo>3f13d08e-684e-4d7b-982c-01a41f33334d</BoundTo>
+      <DependentUpon>ChooseNonTKShop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>71cdd659-44e5-406a-8e56-8c66734b5eaa</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\ChooseNonTKShop.UserCode.cs">
+      <BoundTo>3f13d08e-684e-4d7b-982c-01a41f33334d</BoundTo>
+      <DependentUpon>ChooseNonTKShop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9319ef8-7478-4561-b4c3-435571472b8b</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\ShopOpen.cs">
+      <BoundTo>38161f5a-1c79-443e-85a2-179b3743041c</BoundTo>
+      <DependentUpon>ShopOpen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c1128e4e-a687-402c-8b3b-889d6f9085be</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\ShopOpen.UserCode.cs">
+      <BoundTo>38161f5a-1c79-443e-85a2-179b3743041c</BoundTo>
+      <DependentUpon>ShopOpen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f250712-c94b-4c7c-9f5c-98455cc15211</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSM1.cs">
+      <BoundTo>ade7df24-675f-4c2c-b43d-259afc8ddc4f</BoundTo>
+      <DependentUpon>TPOSM1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>94dfc210-e0f5-4607-b636-33410cc5985b</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSM1.UserCode.cs">
+      <BoundTo>ade7df24-675f-4c2c-b43d-259afc8ddc4f</BoundTo>
+      <DependentUpon>TPOSM1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>10843b6b-92ae-464d-b568-9785bcc1aa66</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSM2.cs">
+      <BoundTo>0fb15de3-6ba8-451b-bf17-58e759eea73e</BoundTo>
+      <DependentUpon>TPOSM2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ad5ea79f-2cc5-454c-83c6-117cb46b95a3</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSM2.UserCode.cs">
+      <BoundTo>0fb15de3-6ba8-451b-bf17-58e759eea73e</BoundTo>
+      <DependentUpon>TPOSM2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8fc8aa8f-764c-4675-ab37-5981c61b8529</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSMApplication.cs">
+      <BoundTo>f66d4575-d4c5-4439-8db7-12467ac0526e</BoundTo>
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>afdddbbd-2778-42be-bc14-00491f036223</id>
+    </Compile>
+    <Compile Include="TestCases\VisitNonTKShopOpenOnce\TPOSMApplication.UserCode.cs">
+      <BoundTo>f66d4575-d4c5-4439-8db7-12467ac0526e</BoundTo>
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a1e419b-1e91-4f61-ac03-64308c0e5b77</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\AvailabilityCheck.cs">
+      <BoundTo>c220e61d-91e0-4262-bda0-660ab7c9f71f</BoundTo>
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df0ba953-6d2d-4fcd-8036-dbd38abe0e99</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\AvailabilityCheck.UserCode.cs">
+      <BoundTo>c220e61d-91e0-4262-bda0-660ab7c9f71f</BoundTo>
+      <DependentUpon>AvailabilityCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06b84b76-2fb4-49a7-97d5-11c9e7d8a898</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\BWUMaintenance.cs">
+      <BoundTo>8453cfba-ca5a-4254-bf23-300f4fafcb66</BoundTo>
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>75a047fb-6421-4df9-95f5-129cff9d3869</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\BWUMaintenance.UserCode.cs">
+      <BoundTo>8453cfba-ca5a-4254-bf23-300f4fafcb66</BoundTo>
+      <DependentUpon>BWUMaintenance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a00ba570-1e1e-4377-aed2-0aca8a984fb1</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\ChooseTKShop.cs">
+      <BoundTo>1aaf8f3c-ab95-4872-a465-49e24a3f5584</BoundTo>
+      <DependentUpon>ChooseTKShop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2fce349e-88e1-476d-ae5d-4fd3ffc03d15</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\ChooseTKShop.UserCode.cs">
+      <BoundTo>1aaf8f3c-ab95-4872-a465-49e24a3f5584</BoundTo>
+      <DependentUpon>ChooseTKShop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f361f08a-7f45-45b4-94b9-d1b0ac982922</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\ComplianceCheck.cs">
+      <BoundTo>f897f9b0-f93b-401f-b500-3ee2e6672cc7</BoundTo>
+      <DependentUpon>ComplianceCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f124a69-9503-4a77-9b30-7fcbd0a5bc81</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\ComplianceCheck.UserCode.cs">
+      <BoundTo>f897f9b0-f93b-401f-b500-3ee2e6672cc7</BoundTo>
+      <DependentUpon>ComplianceCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>680bf043-b349-41e7-a56e-6dbfd049f3c0</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSM1.cs">
+      <BoundTo>d34b8352-929f-4585-a400-099ab2b51dc1</BoundTo>
+      <DependentUpon>TPOSM1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6b56ca2-f4a2-4c37-a2b3-84088e3a5f4b</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSM1.UserCode.cs">
+      <BoundTo>d34b8352-929f-4585-a400-099ab2b51dc1</BoundTo>
+      <DependentUpon>TPOSM1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>023bf49c-72d8-4aef-9f00-6ad87744708a</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSM2.cs">
+      <BoundTo>086f6690-c065-4aae-9942-1a1090b91e20</BoundTo>
+      <DependentUpon>TPOSM2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f99e730c-d892-4cf2-8bda-2087da0ed114</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSM2.UserCode.cs">
+      <BoundTo>086f6690-c065-4aae-9942-1a1090b91e20</BoundTo>
+      <DependentUpon>TPOSM2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>371c1f4d-b7df-46c2-be14-9411248483d4</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSMApplication.cs">
+      <BoundTo>3572f1bf-bbff-4765-9011-df34d7e545ce</BoundTo>
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b9291c33-f33f-480c-87dc-17fda3df83f9</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\TPOSMApplication.UserCode.cs">
+      <BoundTo>3572f1bf-bbff-4765-9011-df34d7e545ce</BoundTo>
+      <DependentUpon>TPOSMApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>82355f0d-5216-4379-ad14-9c584ad86902</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\VisitShopOpen.cs">
+      <BoundTo>efe4112c-b4c6-40dc-bd48-178321f48308</BoundTo>
+      <DependentUpon>VisitShopOpen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a8d74f37-4a33-4162-9123-e16b2c32574b</id>
+    </Compile>
+    <Compile Include="TestCases\VisitTKShopOpenOnce\VisitShopOpen.UserCode.cs">
+      <BoundTo>efe4112c-b4c6-40dc-bd48-178321f48308</BoundTo>
+      <DependentUpon>VisitShopOpen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ec82c4e3-de1b-4c50-9b5d-d9a74fb5f1ab</id>
+    </Compile>
+    <Compile Include="TestCases\VisitWorkReview\WorkReview.cs">
+      <BoundTo>323aa3f8-f20f-4d91-a600-437e51cbce90</BoundTo>
+      <DependentUpon>WorkReview.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>732e652e-bb25-4463-91c1-6e642b8b7e7d</id>
+    </Compile>
+    <Compile Include="TestCases\VisitWorkReview\WorkReview.UserCode.cs">
+      <BoundTo>323aa3f8-f20f-4d91-a600-437e51cbce90</BoundTo>
+      <DependentUpon>WorkReview.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>843ddba7-61a2-49c8-a648-04f867a143bf</id>
+    </Compile>
+    <Compile Include="TestCases\VisitWorkWith\WorkWith.cs">
+      <BoundTo>942df8be-0b36-44eb-94c8-ccfe7e28f60c</BoundTo>
+      <DependentUpon>WorkWith.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78529b7a-41b5-4ba3-854e-198fbcfd7cc8</id>
+    </Compile>
+    <Compile Include="TestCases\VisitWorkWith\WorkWith.UserCode.cs">
+      <BoundTo>942df8be-0b36-44eb-94c8-ccfe7e28f60c</BoundTo>
+      <DependentUpon>WorkWith.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb92a1a3-a5c0-4742-9715-a0225715bf76</id>
+    </Compile>
+    <Compile Include="UserCodeCollection\UserCode.cs">
+      <id>9c1aebde-1820-4f7c-9f3e-843ea2eecf30</id>
+    </Compile>
+    <Compile Include="UserCodeCollection\UserCodeCollection1.cs">
+      <id>b2406b66-db2a-495c-919f-0f298fff2f75</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>af3ef484-8eb6-486d-be11-0606f31362d5</id>
+    </None>
+    <None Include="PMISupervisorRepository.rximg">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <DependentUpon>PMISupervisorRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>bf15f580-5baa-4c0b-bfef-9d5ec2385134</id>
+    </None>
+    <None Include="PMISupervisorRepository.rxrep">
+      <id>96936818-4316-4611-ada2-8b01950c5450</id>
+      <repoid>02b15840-77da-419d-b28a-07db2731a477</repoid>
+      <reporootid>dcd8a16c-6d73-4d59-943e-71a35b7b3ac8</reporootid>
+    </None>
+    <None Include="TestCases\Launching App\LaunchingApp.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>9b6b0be9-ec94-411d-acf6-679e29aadb5d</id>
+      <recordtableid>997fe3f7-dc2b-4842-892e-a720a6bf0a81</recordtableid>
+    </None>
+    <None Include="TestCases\MarkAttendance\MarkAttendance.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>cf85735b-5b62-417f-bca2-04fc765e9ab7</id>
+      <recordtableid>6a1409c8-9702-4269-92ca-0bdc6f4b2078</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\AvailabilityCheck.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>4a9c7d95-2ee2-44f8-9a8d-16cfa32ad805</id>
+      <recordtableid>ae271e60-2534-4140-b245-c95b0638f24d</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\BWUMaintenance.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>7686ec89-242e-428a-bf13-a181c0314345</id>
+      <recordtableid>b0b87da6-9e25-436d-af83-90a7164f81ca</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\OverWriteNonTKShop.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>3bcc4ff6-d180-4e4f-ae1a-8fbe5c9d5448</id>
+      <recordtableid>196ffbe2-d747-461b-b76d-8a7ce2f670e4</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\ShopOpen.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>e540184b-ff13-4ed4-b770-c37048e89266</id>
+      <recordtableid>4c2f0063-b987-4624-9306-ead679752fe4</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\TPOSM.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>4c68a22f-38d4-4dce-8463-c54704fd1334</id>
+      <recordtableid>0dfa3d5d-811a-4c21-8716-5d4264db4c50</recordtableid>
+    </None>
+    <None Include="TestCases\OverWriteNonTKShop\TPOSMApplication.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>e009d609-2d86-41df-8030-dc4c2a44522b</id>
+      <recordtableid>7012fd58-df8d-4ba0-a577-7989088671e2</recordtableid>
+    </None>
+    <None Include="TestCases\testrecording.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>09258550-1bd0-4154-9c2f-e0067909a028</id>
+      <recordtableid>a9ddefb8-cb6f-4f26-b3f7-22f805a74600</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\AvailabilityCheck.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>2da3d751-17a0-4e5b-ab4c-8558238bd094</id>
+      <recordtableid>e642f440-9493-48b7-b6ae-099fe8bb7f8c</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\BWUMaintenance.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>654d294f-6eb9-48d5-88ba-31dbe7c26ac4</id>
+      <recordtableid>527d0dfd-98f2-4100-a20a-47e121abc5e3</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\ChooseNonTKShop.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>3f13d08e-684e-4d7b-982c-01a41f33334d</id>
+      <recordtableid>a94e8e78-c867-4757-ae0a-3cad4e58ac5a</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\ShopOpen.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>38161f5a-1c79-443e-85a2-179b3743041c</id>
+      <recordtableid>5789b6ea-8f64-4b02-9cfa-54bbcee3b1ef</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\TPOSM1.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>ade7df24-675f-4c2c-b43d-259afc8ddc4f</id>
+      <recordtableid>1f20e0b3-7b83-4bcf-8de3-b5cf452d48f6</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\TPOSM2.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>0fb15de3-6ba8-451b-bf17-58e759eea73e</id>
+      <recordtableid>f398c2a2-584f-418d-a5b5-ab53b0506ded</recordtableid>
+    </None>
+    <None Include="TestCases\VisitNonTKShopOpenOnce\TPOSMApplication.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>f66d4575-d4c5-4439-8db7-12467ac0526e</id>
+      <recordtableid>762a2708-dc88-4ad8-a216-1d88b25610c2</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\AvailabilityCheck.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>c220e61d-91e0-4262-bda0-660ab7c9f71f</id>
+      <recordtableid>0729cbcd-d4b2-4230-bf4e-b47692611dc2</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\BWUMaintenance.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>8453cfba-ca5a-4254-bf23-300f4fafcb66</id>
+      <recordtableid>21efebf5-3387-4677-b217-67e8ceaa17b4</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\ChooseTKShop.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>1aaf8f3c-ab95-4872-a465-49e24a3f5584</id>
+      <recordtableid>3af1f92f-14c3-49c1-8f48-afd91b87e0a7</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\ComplianceCheck.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>f897f9b0-f93b-401f-b500-3ee2e6672cc7</id>
+      <recordtableid>33c7b983-145e-44b4-870e-5a9dbf0574e3</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\TPOSM1.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>d34b8352-929f-4585-a400-099ab2b51dc1</id>
+      <recordtableid>4f811abc-a72b-4367-a8de-e76efe1be28e</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\TPOSM2.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>086f6690-c065-4aae-9942-1a1090b91e20</id>
+      <recordtableid>9847bcff-a3a6-4c93-8794-7356643f7245</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\TPOSMApplication.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>3572f1bf-bbff-4765-9011-df34d7e545ce</id>
+      <recordtableid>6e655e1c-973a-459a-9130-3934663edab1</recordtableid>
+    </None>
+    <None Include="TestCases\VisitTKShopOpenOnce\VisitShopOpen.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>efe4112c-b4c6-40dc-bd48-178321f48308</id>
+      <recordtableid>10151abc-49de-42cf-9451-222611391d81</recordtableid>
+    </None>
+    <None Include="TestCases\VisitWorkReview\WorkReview.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>323aa3f8-f20f-4d91-a600-437e51cbce90</id>
+      <recordtableid>ed3fab3a-ca0c-4228-9629-391eda1b127d</recordtableid>
+    </None>
+    <None Include="TestCases\VisitWorkWith\WorkWith.rxrec">
+      <BoundTo>96936818-4316-4611-ada2-8b01950c5450</BoundTo>
+      <id>942df8be-0b36-44eb-94c8-ccfe7e28f60c</id>
+      <recordtableid>09d10b35-4665-4384-b456-c61337d4c3e0</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PMISupervisor.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>290b26fd-4042-4b1f-8ef9-9f00bcfdc37c</id>
+    </Content>
+    <Content Include="PMISupervisor.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>3cf805ad-4c87-4c6f-94ce-6b84b79ca322</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestCases\Launching App">
+      <id>b3d3ab1a-e8b4-4dcd-82b1-6a230d21c72c</id>
+    </Folder>
+    <Folder Include="TestCases\MarkAttendance">
+      <id>a6d7b7c8-d83e-4ee8-8ca5-9d6ec583c241</id>
+    </Folder>
+    <Folder Include="TestCases\OverWriteNonTKShop">
+      <id>1e71f4a3-b68d-4d38-9fb4-0a2f065b0b31</id>
+    </Folder>
+    <Folder Include="TestCases\VisitNonTKShopOpenOnce">
+      <id>1be1dcf3-d01a-4d5d-8567-1430a1304bc8</id>
+    </Folder>
+    <Folder Include="TestCases\VisitTKShopOpenOnce">
+      <id>8dc13554-a7f9-447f-913a-66f5eb67f696</id>
+    </Folder>
+    <Folder Include="TestCases\VisitWorkWith">
+      <id>b79d8556-94fb-4da4-bd2d-c4745cf7b8c8</id>
+    </Folder>
+    <Folder Include="TestCases\VisitWorkReview">
+      <id>9699d15f-f8aa-4f6a-8af6-ff3e0d1fff38</id>
+    </Folder>
+    <Folder Include="UserCodeCollection">
+      <id>ac612599-ac19-48b6-ad44-352279994338</id>
+    </Folder>
+    <Folder Include="TestCases">
+      <id>2738c2f0-1f14-43f1-a667-5f81a1ea3a5d</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

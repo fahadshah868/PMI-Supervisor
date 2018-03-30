@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PMISupervisor"
+      id="e357c24f-38b5-4cc7-8aae-52fb5f7fd917"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PMISupervisor"
+      id="e357c24f-38b5-4cc7-8aae-52fb5f7fd917"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

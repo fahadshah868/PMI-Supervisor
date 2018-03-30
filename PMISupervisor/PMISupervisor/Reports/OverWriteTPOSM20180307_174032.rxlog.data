@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="46ea093927b6e0a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="3/7/2018 5:40:47 PM"
+		timestampiso="2018-03-07T12:40:47"
+		endtime="3/7/2018 5:40:54 PM"
+		timeoutfactor="1"
+		module="OverWriteTPOSM">
+		<detail>
+			OverWriteTPOSM
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.115"
+			timeRelativeToTestModuleStartTime="00:04.131"
+			timeWallClock="17:40:51"
+			time="00:04.115"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.TPOSM_No' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//list[@rid='list']/container[2]"
+				itempath="form[@title~'^TouchPointRemarksListScre']//list[@rid='list']/container[2]"
+				fullname="PMISupervisorRepository.PMI_Supervisor.TPOSM_No"
+				id="b18d9122c4f9484aa731c1cec2cc664f"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\OverWriteTPOSM.cs"
+				codeline="82"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a5ae63b6deaa8ba"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="3/7/2018 6:10:38 PM"
+		timestampiso="2018-03-07T13:10:38"
+		endtime="3/7/2018 6:11:42 PM"
+		timeoutfactor="1"
+		module="TPOSMApplication">
+		<detail>
+			TPOSMApplication
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.227"
+			timeRelativeToTestModuleStartTime="00:04.227"
+			timeWallClock="18:10:42"
+			time="00:04.227"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Non-TK') on item 'PMI_Supervisor.Validate_NonTKShopScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen"
+				id="a98c99e05c99482cae5633fe0fc4e812"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.921"
+			timeRelativeToTestModuleStartTime="00:04.921"
+			timeWallClock="18:10:43"
+			time="00:04.921"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen"
+				id="a98c99e05c99482cae5633fe0fc4e812"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.921"
+			timeRelativeToTestModuleStartTime="00:04.921"
+			timeWallClock="18:10:43"
+			time="00:04.921"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.AvailabilityCheck' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[2]"
+				itempath="form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[2]"
+				fullname="PMISupervisorRepository.PMI_Supervisor.AvailabilityCheck"
+				id="ae81bed6f7dc40049ccd535a1280d341"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.346"
+			timeRelativeToTestModuleStartTime="00:06.346"
+			timeWallClock="18:10:44"
+			time="00:06.346"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='AVAILABILITY CHECK') on item 'PMI_Supervisor.Validate_AVAILABILITYCHECKScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/container[@rid='content']//text[@caption='AVAILABILITY CHECK']"
+				itempath="form[@title~'^InformationCollectionScre']/container[@rid='content']//text[@caption='AVAILABILITY CHECK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_AVAILABILITYCHECKScreen"
+				id="393237b7ced84d878ebd1210c7d416c1"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.927"
+			timeRelativeToTestModuleStartTime="00:08.927"
+			timeWallClock="18:10:47"
+			time="00:08.927"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_AVAILABILITYCHECKScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/container[@rid='content']//text[@caption='AVAILABILITY CHECK']"
+				itempath="form[@title~'^InformationCollectionScre']/container[@rid='content']//text[@caption='AVAILABILITY CHECK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_AVAILABILITYCHECKScreen"
+				id="393237b7ced84d878ebd1210c7d416c1"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.654"
+			timeRelativeToTestModuleStartTime="00:57.654"
+			timeWallClock="18:11:36"
+			time="00:57.654"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PMI_Supervisor'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Self"
+				id="fd56243cade9476faf6874733305a57b"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.098"
+			timeRelativeToTestModuleStartTime="01:00.098"
+			timeWallClock="18:11:38"
+			time="01:00.098"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Non-TK') on item 'PMI_Supervisor.Validate_NonTKShopScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen"
+				id="a98c99e05c99482cae5633fe0fc4e812"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.598"
+			timeRelativeToTestModuleStartTime="01:00.598"
+			timeWallClock="18:11:38"
+			time="01:00.598"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				itempath="form[@title='MainShopOptionsListScreen']/container[@rid='content']//text[@caption='Non-TK']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_NonTKShopScreen"
+				id="a98c99e05c99482cae5633fe0fc4e812"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="102"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.613"
+			timeRelativeToTestModuleStartTime="01:00.613"
+			timeWallClock="18:11:39"
+			time="01:00.613"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PMI_Supervisor'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Self"
+				id="fd56243cade9476faf6874733305a57b"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.239"
+			timeRelativeToTestModuleStartTime="01:01.239"
+			timeWallClock="18:11:39"
+			time="01:01.239"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'PMI_Supervisor.Validate_InfoPopUp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_InfoPopUp"
+				id="221c7aa4f23b487497a2bf3cb6eb57e8"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.864"
+			timeRelativeToTestModuleStartTime="01:01.864"
+			timeWallClock="18:11:40"
+			time="01:01.864"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_InfoPopUp' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_InfoPopUp"
+				id="221c7aa4f23b487497a2bf3cb6eb57e8"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.879"
+			timeRelativeToTestModuleStartTime="01:01.879"
+			timeWallClock="18:11:40"
+			time="01:01.879"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.YesButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.YesButton"
+				id="8ca87ed13bb643ca8433b50ef9929721"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.377"
+			timeRelativeToTestModuleStartTime="01:03.377"
+			timeWallClock="18:11:41"
+			time="01:03.377"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Shops List') on item 'PMI_Supervisor.Validate_ShopsListScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']//text[@caption='Shops List']"
+				itempath="form[@title='ShopsListScreen']/container[@rid='content']//text[@caption='Shops List']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_ShopsListScreen"
+				id="cafb2ccac77c434489204f3c0441aae4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.397"
+			timeRelativeToTestModuleStartTime="01:04.397"
+			timeWallClock="18:11:42"
+			time="01:04.397"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_ShopsListScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/container[@rid='content']//text[@caption='Shops List']"
+				itempath="form[@title='ShopsListScreen']/container[@rid='content']//text[@caption='Shops List']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_ShopsListScreen"
+				id="cafb2ccac77c434489204f3c0441aae4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\OverWriteNonTKShop\AvailabilityCheck.cs"
+				codeline="121"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+	</activity>
+</report>

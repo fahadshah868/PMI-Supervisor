@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="UserCodeCollection\UserCodeCollection1.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="UserCodeCollection\UserCodeCollection1.cs" />
+    <Element value="TestCases\testrecording.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="PMISupervisor.UserCodeCollection.UserCodeCollection1.readtextfromfile()" />
+      <Element value="PMISupervisor.UserCode.UserCode.loadNonTKAvailabilityCheckForOverWriting()" />
+      <Element value="PMISupervisor.UserCode.UserCode.loadNonTKTPOSMForOverWriting()" />
+      <Element value="PMISupervisor.UserCode.UserCode.loadOverWriteNonTKTPOSM()" />
+      <Element value="PMISupervisor.UserCode.UserCode.overwriteNonTKShopFromList()" />
+      <Element value="PMISupervisor.UserCode.UserCode.overwriteNonTKAvailabilityCheck()" />
+    </Array>
+  </Properties>
+</Properties>

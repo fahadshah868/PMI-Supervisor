@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e0c9ecd6c1dc549"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="3/7/2018 11:50:41 AM"
+		timestampiso="2018-03-07T06:50:41"
+		endtime="3/7/2018 11:50:58 AM"
+		timeoutfactor="1"
+		module="WorkWith">
+		<detail>
+			WorkWith
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.187"
+			timeRelativeToTestModuleStartTime="00:04.187"
+			timeWallClock="11:50:45"
+			time="00:04.187"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.WorkWith_RadioButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//radiobutton[@text='WW']"
+				itempath="form[@title='MainScreenSupervisor']/container[@rid='content']//radiobutton[@text='WW']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.WorkWith_RadioButton"
+				id="9ac999d90218439985e483e02376c6d3"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.641"
+			timeRelativeToTestModuleStartTime="00:07.641"
+			timeWallClock="11:50:48"
+			time="00:07.641"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.ButtonSubmit' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//button[@text=' Submit ']"
+				itempath="form[@title='MainScreenSupervisor']/container[@rid='content']//button[@text=' Submit ']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.ButtonSubmit"
+				id="bf59d7fda5554c9a8b4104372acbefd2"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.906"
+			timeRelativeToTestModuleStartTime="00:10.906"
+			timeWallClock="11:50:52"
+			time="00:10.906"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='MERCHANDISERS LIST') on item 'PMI_Supervisor.Validate_MERCHANDISERSLISTScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']/container[@rid='content']//text[@caption='MERCHANDISERS LIST']"
+				itempath="form[@title='MerchListScreen']/container[@rid='content']//text[@caption='MERCHANDISERS LIST']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_MERCHANDISERSLISTScreen"
+				id="1893e536db464407a7461de9f3b600cf"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.438"
+			timeRelativeToTestModuleStartTime="00:12.438"
+			timeWallClock="11:50:53"
+			time="00:12.438"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_MERCHANDISERSLISTScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MerchListScreen']/container[@rid='content']//text[@caption='MERCHANDISERS LIST']"
+				itempath="form[@title='MerchListScreen']/container[@rid='content']//text[@caption='MERCHANDISERS LIST']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_MERCHANDISERSLISTScreen"
+				id="1893e536db464407a7461de9f3b600cf"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.016"
+			timeRelativeToTestModuleStartTime="00:15.016"
+			timeWallClock="11:50:56"
+			time="00:15.016"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='ROUTE LIST') on item 'PMI_Supervisor.Validate_ROUTELISTScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_ROUTELISTScreen"
+				id="5f7cae133b91468da8f0d9ead14c7d89"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.610"
+			timeRelativeToTestModuleStartTime="00:15.610"
+			timeWallClock="11:50:56"
+			time="00:15.610"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_ROUTELISTScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_ROUTELISTScreen"
+				id="5f7cae133b91468da8f0d9ead14c7d89"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="98"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.625"
+			timeRelativeToTestModuleStartTime="00:15.625"
+			timeWallClock="11:50:56"
+			time="00:15.625"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PMI_Supervisor.List1.Wednesday' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[3]"
+				itempath="container[3]"
+				fullname="PMISupervisorRepository.PMI_Supervisor.List1.Wednesday"
+				id="bc506f732bf34fcf9f0ae335794b0db4"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitWorkWith\WorkWith.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

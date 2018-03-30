@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a9ddefb8-cb6f-4f26-b3f7-22f805a74600"
+mode="Global"
+rxversion="8.0">
+	<name>
+		testrecording
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="testrecording"
+	namespace="PMISupervisor.TestCases">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="UserCodeCollection1"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="readtextfromfile"
+		namespace="PMISupervisor.UserCodeCollection"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="862c4876-1a27-41c0-9b36-fe08e7f597a2">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="02b15840-77da-419d-b28a-07db2731a477"
+	name="PMISupervisorRepository"
+	relativepath="..\PMISupervisorRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="PMISupervisorRepository"
+		namespace="PMISupervisor">
+		</codegen>
+		<rootfolder
+		id="dcd8a16c-6d73-4d59-943e-71a35b7b3ac8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		testrecording.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,17 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{A0E6180D-6321-4E7D-A5BC-E6E5BEEB4067}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>2738c2f0-1f14-43f1-a667-5f81a1ea3a5d</string>
+      <string>b3d3ab1a-e8b4-4dcd-82b1-6a230d21c72c</string>
+      <string>1e71f4a3-b68d-4d38-9fb4-0a2f065b0b31</string>
+      <string>1be1dcf3-d01a-4d5d-8567-1430a1304bc8</string>
+      <string>9699d15f-f8aa-4f6a-8af6-ff3e0d1fff38</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution PMISupervisor[PMISupervisor[TestCases[]UserCodeCollection[]]]]&#xD;&#xA;Solution PMISupervisor\PMISupervisor\UserCodeCollection\UserCodeCollection1.cs&#xD;&#xA;Solution PMISupervisor" />
+  <StartupProject value="{A0E6180D-6321-4E7D-A5BC-E6E5BEEB4067}" />
+</Properties>

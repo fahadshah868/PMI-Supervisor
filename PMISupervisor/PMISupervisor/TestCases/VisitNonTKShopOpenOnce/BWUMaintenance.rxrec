@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="527d0dfd-98f2-4100-a20a-47e121abc5e3"
+mode="Global"
+rxversion="8.0">
+	<name>
+		BWUMaintenance
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BWUMaintenance"
+	namespace="PMISupervisor.TestCases.VisitNonTKShopOpenOnce">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="02b15840-77da-419d-b28a-07db2731a477"
+	name="PMISupervisorRepository"
+	relativepath="..\..\PMISupervisorRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="PMISupervisorRepository"
+		namespace="PMISupervisor">
+		</codegen>
+		<rootfolder
+		id="dcd8a16c-6d73-4d59-943e-71a35b7b3ac8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BWUMaintenance.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

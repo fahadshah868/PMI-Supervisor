@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="10151abc-49de-42cf-9451-222611391d81"
+mode="Global"
+rxversion="8.0">
+	<name>
+		VisitShopOpen
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VisitShopOpen"
+	namespace="PMISupervisor.TestCases.VisitTKShopOpenOnce">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="02b15840-77da-419d-b28a-07db2731a477"
+	name="PMISupervisorRepository"
+	relativepath="..\..\PMISupervisorRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="PMISupervisorRepository"
+		namespace="PMISupervisor">
+		</codegen>
+		<rootfolder
+		id="dcd8a16c-6d73-4d59-943e-71a35b7b3ac8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VisitShopOpen.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

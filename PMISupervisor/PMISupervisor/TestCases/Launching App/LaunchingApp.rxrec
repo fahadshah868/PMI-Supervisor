@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="997fe3f7-dc2b-4842-892e-a720a6bf0a81"
+mode="Global"
+rxversion="8.0">
+	<name>
+		LaunchingApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchingApp"
+	namespace="PMISupervisor.TestCases.Launching_App">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="pk.com.tradetracker"
+		devicename="HUAWEI LUA-U22"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c26a5ee0-f2f2-4bae-bc4a-7ba75f375d0e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1b5b46c7-8f11-4019-8775-5af1d7edccc3"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreenSupervisor']/container[@rid='content']//text[@caption='WELCOME']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				WELCOME
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="02b15840-77da-419d-b28a-07db2731a477"
+	name="PMISupervisorRepository"
+	relativepath="..\..\PMISupervisorRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="PMISupervisorRepository"
+		namespace="PMISupervisor">
+		</codegen>
+		<rootfolder
+		id="dcd8a16c-6d73-4d59-943e-71a35b7b3ac8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchingApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

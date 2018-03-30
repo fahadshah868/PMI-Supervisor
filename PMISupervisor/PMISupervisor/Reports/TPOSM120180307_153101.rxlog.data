@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1cfa678a36428372"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="3/7/2018 3:31:19 PM"
+		timestampiso="2018-03-07T10:31:19"
+		endtime="3/7/2018 3:31:25 PM"
+		timeoutfactor="1"
+		module="TPOSM1">
+		<detail>
+			TPOSM1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.464"
+			timeRelativeToTestModuleStartTime="00:05.470"
+			timeWallClock="15:31:24"
+			time="00:05.464"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='TPOSM') on item 'PMI_Supervisor.Validate_TPOSMDeploymentScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM']"
+				itempath="form[@title='TouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_TPOSMDeploymentScreen"
+				id="2f46a54ee81645d9817dd081589aa36e"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitNonTKShopOpen\TPOSM1.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.292"
+			timeRelativeToTestModuleStartTime="00:06.298"
+			timeWallClock="15:31:25"
+			time="00:06.292"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'PMISupervisorRepository.PMI_Supervisor.Validate_TPOSMDeploymentScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM']"
+				itempath="form[@title='TouchPointListScreen']/container[@rid='content']//text[@caption='TPOSM']"
+				fullname="PMISupervisorRepository.PMI_Supervisor.Validate_TPOSMDeploymentScreen"
+				id="2f46a54ee81645d9817dd081589aa36e"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMISupervisor\PMISupervisor\TestCases\VisitNonTKShopOpen\TPOSM1.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>
